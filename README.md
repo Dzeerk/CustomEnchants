@@ -17,3 +17,4 @@ Last Stand
   
   Tier III - When reaching 3 hearts, gain Resistance III for 4s.
   
+Credits to Minikloon (Hypixel Developer)
