@@ -17,4 +17,6 @@ Last Stand
   
   Tier III - When reaching 3 hearts, gain Resistance III for 4s.
   
+Combo: Perun's Wrath - Every 4 hits, a lightning strikes the target player.
+  
 Credits to Minikloon (Hypixel Developer)
