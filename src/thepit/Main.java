@@ -21,6 +21,7 @@ import thepit.enchants.LastStandI;
 import thepit.enchants.LastStandII;
 import thepit.enchants.LastStandIII;
 import thepit.enchants.MegaLongBow;
+import thepit.enchants.Perun;
 import thepit.enchants.Phoenix;
 import thepit.enchants.Telebow;
 import thepit.events.DoubleJump;
@@ -49,6 +50,7 @@ public class Main extends JavaPlugin{
 		getServer().getPluginManager().registerEvents(new LastStandI(), this);
 		getServer().getPluginManager().registerEvents(new LastStandII(), this);
 		getServer().getPluginManager().registerEvents(new LastStandIII(), this);
+		getServer().getPluginManager().registerEvents(new Perun(), this);
 		loadColors();
 		startTask();
 	}

@@ -33,15 +33,15 @@ public class GiveItems implements Listener {
 		ItemStack telebow = addItemFlags(new ItemStack(Material.BOW));
 		ItemMeta teleM = telebow.getItemMeta();
 		
-		teleM.setDisplayName("Â§cArtifact Tier III Bow");
+		teleM.setDisplayName("§cArtifact Tier III Bow");
 		teleM.setLore(Arrays.asList(
-				"Â§7Lives: Â§a100/100",
+				"§7Lives: §a100/100",
 				"",
-				"Â§DRARE! Â§9Telebow III",
-				"Â§7Sneak to shoot a teleportation arrow.",
+				"§DRARE! §9Telebow III",
+				"§7Sneak to shoot a teleportation arrow.",
 				"",
-				"Â§9Fletching III",
-				"Â§7Deal Â§c20% Â§7extra damage."));
+				"§9Fletching III",
+				"§7Deal §c20% §7extra damage."));
 		teleM.addEnchant(Enchantment.DAMAGE_ALL, 0, true);
 		teleM.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
 		teleM.addEnchant(Enchantment.ARROW_KNOCKBACK, 20, true);
@@ -54,35 +54,35 @@ public class GiveItems implements Listener {
 		/**ItemStack wakepants = addItemFlags(new ItemStack(Material.LEATHER_LEGGINGS));
 		ItemMeta pM = wakepants.getItemMeta();
 		
-		pM.setDisplayName("Â§cUnobtainable Â§6Tier Â§eIII Â§aWakeballs Â§9Pants");
+		pM.setDisplayName("§cUnobtainable §6Tier §eIII §aWakeballs §9Pants");
 		pM.setLore(Arrays.asList(
-				"Â§7Lives: Â§aInfinite",
+				"§7Lives: §aInfinite",
 				"",
-				"Â§dRARE! Â§9Combo: Client III",
-				"Â§7You can sprint in all directions",
-				"Â§7and you have permanent Â§c+50%",
-				"Â§7movement speed. You also have",
-				"Â§7the ability to hit players at any",
-				"Â§7angle and up to Â§c4 blocks away.",
-				"Â§7Every strike gives you a Big Mac,",
-				"Â§7this increases your weight making you take Â§eless knockback.",
+				"§dRARE! §9Combo: Client III",
+				"§7You can sprint in all directions",
+				"§7and you have permanent §c+50%",
+				"§7movement speed. You also have",
+				"§7the ability to hit players at any",
+				"§7angle and up to §c4 blocks away.",
+				"§7Every strike gives you a Big Mac,",
+				"§7this increases your weight making you take §eless knockback.",
 				"",
-				"Â§dRARE! Â§9Anti-Mystic Abuse III",
-				"Â§7Anyone detected with Â§bRare Â§7or",
-				"Â§bLegendary Â§7or Â§bArtifact Â§7mystics",
-				"Â§7will take Â§c+300% Â§7damage while",
-				"Â§7you are online.",
+				"§dRARE! §9Anti-Mystic Abuse III",
+				"§7Anyone detected with §bRare §7or",
+				"§bLegendary §7or §bArtifact §7mystics",
+				"§7will take §c+300% §7damage while",
+				"§7you are online.",
 				"",
-				"Â§dRARE! Â§9Mystic Wipe III",
-				"Â§7Players with Â§eMysticism IV or",
-				"Â§ehigher Â§7that are within a Â§e20",
-				"Â§eblock radius Â§7of you will have",
-				"Â§7their Â§binventory Â§7and Â§bender",
-				"Â§bchest Â§7wiped and filled with",
-				"Â§7iron swords that can't be",
-				"Â§7taken out of the chest.",
+				"§dRARE! §9Mystic Wipe III",
+				"§7Players with §eMysticism IV or",
+				"§ehigher §7that are within a §e20",
+				"§eblock radius §7of you will have",
+				"§7their §binventory §7and §bender",
+				"§bchest §7wiped and filled with",
+				"§7iron swords that can't be",
+				"§7taken out of the chest.",
 				"",
-				"Â§cAÂ§6s Â§esÂ§atÂ§9rÂ§aoÂ§enÂ§6g Â§caÂ§6s Â§eiÂ§aÂ§9rÂ§aoÂ§en"
+				"§cA§6s §es§at§9r§ao§en§6g §ca§6s §ei§a§9r§ao§en"
 				));
 	
 		
@@ -94,23 +94,23 @@ public class GiveItems implements Listener {
 		ItemStack phoelsswpants = addItemFlags(new ItemStack(Material.LEATHER_LEGGINGS));
 		ItemMeta phoelsswM = phoelsswpants.getItemMeta();
 		
-		phoelsswM.setDisplayName("Â§cUnobtainable Â§6Tier Â§eIII Â§aOverpowered Â§9Pants");
+		phoelsswM.setDisplayName("§cUnobtainable §6Tier §eIII §aOverpowered §9Pants");
 		phoelsswM.setLore(Arrays.asList(
-				"Â§7Lives: Â§aInfinite",
+				"§7Lives: §aInfinite",
 				"",
-				"Â§9Sweaty III",
-				"Â§7Earn Â§b+60% XP Â§7from streak XP",
-				"Â§7bonus and Â§b+100 max XP Â§7per kill.",
+				"§9Sweaty III",
+				"§7Earn §b+60% XP §7from streak XP",
+				"§7bonus and §b+100 max XP §7per kill.",
 				"",
-				"Â§9Last Stand III",
-				"Â§7Gain Â§9Resistance III Â§7(4",
-				"Â§7seconds) when reaching Â§c3â™¥.",
+				"§9Last Stand III",
+				"§7Gain §9Resistance III §7(4",
+				"§7seconds) when reaching §c3™¥.",
 				"",
-				"Â§dRARE! Â§9Phoenix",
-				"Â§7When you hit 2 hearts, you gain",
-				"Â§7full health, but removes a life on your item.",
+				"§dRARE! §9Phoenix",
+				"§7When you hit 2 hearts, you gain",
+				"§7full health, but removes a life on your item.",
 				"",
-				"Â§cAÂ§6s Â§esÂ§atÂ§9rÂ§aoÂ§enÂ§6g Â§caÂ§6s Â§eiÂ§aÂ§9rÂ§aoÂ§en"
+				"§cA§6s §es§at§9r§ao§en§6g §ca§6s §ei§a§9r§ao§en"
 				));
 		
 		phoelsswpants.setItemMeta(phoelsswM);
@@ -139,7 +139,7 @@ public class GiveItems implements Listener {
 		ItemStack djchest = addItemFlags(new ItemStack(Material.DIAMOND_CHESTPLATE));
 		ItemMeta djchestM = djchest.getItemMeta();
 		djchestM.addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 1, true);
-		djchestM.setDisplayName("Â§aÂ§lÂ§nÂ§oDOUBLE-JUMP CHESTPLATE");
+		djchestM.setDisplayName("§a§l§n§oDOUBLE-JUMP CHESTPLATE");
 		
 		
 		
@@ -154,7 +154,7 @@ public class GiveItems implements Listener {
 		ItemStack kbstick = new ItemStack(Material.STICK);
 		ItemMeta kbstickM = kbstick.getItemMeta();		
 		kbstickM.addEnchant(Enchantment.KNOCKBACK, 1000, true);
-		kbstickM.setDisplayName("Â§cÂ§lÂ§nÂ§oEL BATONO SACRETOS");
+		kbstickM.setDisplayName("§c§l§n§oEL BATONO SACRETOS");
 		kbstickM.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 		kbstick.setItemMeta(kbstickM);
 		
@@ -164,15 +164,15 @@ public class GiveItems implements Listener {
 		ItemStack mlb = addItemFlags(new ItemStack(Material.BOW));
 		ItemMeta mlbM = mlb.getItemMeta();
 		
-		mlbM.setDisplayName("Â§cArtifact Tier III Bow");
+		mlbM.setDisplayName("§cArtifact Tier III Bow");
 		mlbM.setLore(Arrays.asList(
-				"Â§7Lives: Â§a100/100",
+				"§7Lives: §a100/100",
 				"",
-				"Â§DRARE! Â§9Mega Longbow III",
-				"Â§7Shoot an arrow to get Â§aJump Boost IV Â§7(Â§e4sÂ§7)",
+				"§DRARE! §9Mega Longbow III",
+				"§7Shoot an arrow to get §aJump Boost IV §7(§e4s§7)",
 				"",
-				"Â§9Fletching III",
-				"Â§7Deal Â§c20% Â§7extra damage."));
+				"§9Fletching III",
+				"§7Deal §c20% §7extra damage."));
 		mlbM.addEnchant(Enchantment.DAMAGE_ALL, 0, true);
 		mlbM.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
 		mlbM.addEnchant(Enchantment.ARROW_KNOCKBACK, 20, true);
@@ -185,10 +185,13 @@ public class GiveItems implements Listener {
 		ItemStack testsword = addItemFlags(new ItemStack(Material.GOLDEN_SWORD));
 		ItemMeta testswM = testsword.getItemMeta();
 		
-		testswM.setDisplayName("Â§2Test Sword");
+		testswM.setDisplayName("§2Test Sword");
 		testswM.setLore(Arrays.asList(
-				"Â§6This is a test sword. It's only used",
-				"Â§6to do damage to test enchantments."
+				"Lives : Infinite",
+				"",
+				"§dRARE! §9Combo: Perun's Wrath III",
+				"§7Every §efourth §7strike strikes",
+				"§7your enemy with §elightning§7."
 				));
 		testswM.addEnchant(Enchantment.DAMAGE_ALL, 7, true);
 		testswM.addItemFlags(ItemFlag.HIDE_ENCHANTS);
